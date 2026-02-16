@@ -1,0 +1,30 @@
+# Core model + inference
+git+https://github.com/microsoft/LLaVA-Med
+transformers==4.36.2
+accelerate>=0.26.0
+bitsandbytes
+sentencepiece
+pydantic==2.9.2
+protobuf==3.20.*
+httpx>=0.28.1
+
+# RAG / retrieval
+langchain
+langchain-core
+sentence-transformers
+biopython
+kagglehub
+
+# Data / eval / utils
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+requests
+Pillow
+captum
+wandb
+albumentations
+spacy
